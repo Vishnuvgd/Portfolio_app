@@ -52,16 +52,10 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       color: white;
       padding-top: 1px;
       /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-      font-family: "Courier New", monospace;
+      font-family:'Courier New', Courier, monospace;
       font-size:smaller;
     }
-    /* .caret {
-      display: inline-block;
-      width: 10px;
-      background-color: black;
-      margin-left: 2px;
-      animation: blink 1s infinite;
-    } */
+
     @keyframes blink {
       0%,
       100% {
@@ -87,7 +81,7 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 </style>
 <body>
     <div class="container-fluid">
-      <div class="row pt-2" style="box-shadow: 0px 4px 8px rgb(26, 25, 25);height: 50px;">
+      <div class="row pt-3" style="box-shadow: 0px 4px 8px rgb(26, 25, 25);height: 70px;">
         <div class="col text-center">
           <a href="./index.html" style="text-decoration: none;">Home</a>
           <a href="" style="text-decoration: none;">About</a>
@@ -103,12 +97,12 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             </div>
         </div>
         <!-- second div -->
-        <div class="row" style="margin-top:3%;">
+        <div class="row" style="margin-top:2%;">
                 <div class="col-md-3">
-                    <img src="Profile.jpg" class="card-img-top" style="border-radius: 10px;border: 1px solid yellow;width: 18rem;margin-left:12px;">
+                    <img src="Profile.jpg" class="card-img-top" style="border-radius: 10px;width: 18rem;margin-left:5px;box-shadow: 0px 4px 8px rgb(46, 45, 45);">
                     <div>
-                      <h3 style="margin-top: 2%;font-size:large;">ADDRESS</h3>
-                      <div style="margin-left:15px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                      <h2 style="margin-top: 2%;font-size:large;">ADDRESS</h2>
+                      <div style="margin-left:10px;font-family:'Courier New', Courier, monospace;">
                         <p>Kallingal House<br>Vengad(po),679338<br>Malappuram District<br>PH:+91 XXXXXXXXXX</p>
                       </div>  
                       <div style="margin-left:12px;margin-bottom: 10px;">
@@ -126,11 +120,11 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
                 </div>
             <div class="col-md-8" style="margin-top: 1%;">
                 <h2 style="font-size: large;">ABOUT ME</h2>
-                <p style="font-family:Courier New, monospace;margin-left:10px;">Am Vishnudas,a Webdeveloper And graudated in Bechelor of Computer Application from Calicuit University.My journey in this filed world has equipped me with versatile skills in both frontend and backend development.I specialize in Django and front-end developement.I enjoy Designing and little bit knowladge in Figma, which I often incorporate into my projects.I am passionate about continuously improving my skills and contributing meaningfully to the industry.</p>
+                <p style="font-family:Courier New, monospace;margin-left:10px;text-align: justify;">Am Vishnudas,a Webdeveloper And graudated in Bechelor of Computer Application from Calicuit University.My journey in this filed world has equipped me with versatile skills in both frontend and backend development.I specialize in Django and front-end developement.I enjoy Designing and little bit knowladge in Figma, which I often incorporate into my projects.I am passionate about continuously improving my skills and contributing meaningfully to the industry.</p>
                 <a href="VISHNU DAS K.pdf" download>
                   <div class="btn" style="width:80px;height:40px;background-color: rgb(44, 43, 43);color: white;text-align: center;border-radius: 15px;border: 1px solid white;">Resume</div>
                 </a>
-                <h2 style="font-size: large;margin-top:10px;">SKILLS</h2>
+                <h2 style="font-size: large;margin-top:15px;">SKILLS</h2>
               <div class="row mt-3" style="margin-left: 8px;">
                   <div class="col" style="margin-left:5px;font-size:smaller;border: 1px solid white;height:65px;border-radius: 10px;">
                     <p style="text-align: center;padding-top:20px;">Front-End</p>
@@ -183,7 +177,7 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             if (index < text.length) {
               textContainer.textContent += text.charAt(index);
               index++;
-              setTimeout(typeWriter, 50); // Delay between characters
+              setTimeout(typeWriter,55); // Delay between characters
             }
           }
   
