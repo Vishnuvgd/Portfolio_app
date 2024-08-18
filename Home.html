@@ -55,6 +55,24 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       font-family:'Courier New', Courier, monospace;
       font-size:smaller;
     }
+    #img{
+      border-radius: 10px;
+      width: 18rem;
+      margin-left:5px;
+      box-shadow: 0px 4px 8px rgb(46, 45, 45);
+    }
+
+    @media (max-width: 576px) {
+    .container-fluid{
+      flex-direction: row;
+    }
+    #img{
+      border-radius: 10px;
+      width: 18rem;
+      margin-left:10px;
+      box-shadow: 0px 4px 8px rgb(46, 45, 45);
+    }
+  }
 
     @keyframes blink {
       0%,
@@ -108,7 +126,7 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         <!-- second div -->
         <div class="row" style="margin-top:2%;">
                 <div class="col-md-3">
-                    <img src="Profile.jpg" class="card-img-top" style="border-radius: 10px;width: 18rem;margin-left:5px;box-shadow: 0px 4px 8px rgb(46, 45, 45);">
+                    <img id="img" src="Profile.jpg" class="card-img-top">
                     <div>
                       <h2 style="margin-top: 2%;font-size:large;">ADDRESS</h2>
                       <div style="margin-left:10px;font-family:'Courier New', Courier, monospace;">
