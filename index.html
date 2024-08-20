@@ -81,6 +81,28 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       text-align: justify;
     }
   }
+  .loder1,.loder2{
+        border: 10px solid #f3f3f3;
+        border-top: 10px solid #3498db;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1s linear .1s infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(180deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+      }
+      .loder1{
+        animation-delay: .5s;
+      }
   </style>
   <body>
     <div class="container-fluid">
@@ -98,6 +120,10 @@ MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         <div class="col-md-12 text-center">
             <!-- The tag where text will be automatically typed -->
             <div id="textContainer"></div>
+            <div class="container mt-1" style="display: flex;justify-content: center;align-items: center;">
+              <div class="loder1" style="margin-right: 10px;"></div>
+              <div class="loder2"></div>
+            </div>
             <h1 class="head mt-2">VISHNUDAS K</h1>
             <a href="./Home.html">
                 <div class="btn mt-3 pt-3" style="width: 160px;height: 60px;background-color: chartreuse;text-align: center;box-shadow: 0px 4px 8px rgb(50, 50, 50);border-radius: 5px;color:black;font-weight: bold;">Checkout <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
